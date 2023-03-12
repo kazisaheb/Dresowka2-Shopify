@@ -1,0 +1,159 @@
+/* Global style */
+* {
+    transition: .4s;
+}
+
+button.form__submit.button.button--primary:hover {
+    filter: invert(0);
+}
+
+a.product-item__action-button.button.button--small.button--primary:hover {
+    background: #4B5797;
+}
+
+.container h2.heading.h1 {
+    border: 1px solid;
+}
+
+/* Product Add Button */
+button.product-form__add-button.button.button--primary {
+    background:
+        linear-gradient(90deg, #70CD00 50%, #008A00 0) var(--_p, 100%)/200% no-repeat;
+}
+
+button.product-form__add-button.button.button--primary:hover {
+    --_p: 0%;
+}
+
+/* Start megamenu style */
+ul.nav-bar__linklist.list--unstyled {
+    text-align: center;
+}
+
+.nav-bar .mega-menu {
+    text-align: left;
+}
+
+ul.mega-menu__linklist {
+    column-count: 4;
+}
+
+a.mega-menu__title.heading:hover {
+    text-decoration: underline;
+}
+
+li.mega-menu__item,
+li.mobile-menu__nav-item {
+    border-bottom: 1px solid;
+    min-width: 300px;
+}
+
+li.mega-menu__item a {
+    transition: all .3s ease-in-out;
+}
+
+li.mega-menu__item a:hover,
+li.mobile-menu__nav-item a:hover,
+li.mobile-menu__nav-item:hover {
+    background: #73488a;
+    color: white;
+    padding-left: 10px;
+}
+
+
+/* Start mosaic style */
+
+.mosaic__item .promo-block__inner {
+    background: #707793c7;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.mosaic__item p.promo-block__heading.heading.h3 {
+    font-size: 15px;
+    color: white;
+
+}
+
+.promo-block__content {
+    margin-bottom: 1em;
+    font-size: 30px;
+    line-height: normal;
+}
+
+span.promo-block__cta.button.button--floating:hover {
+    filter: invert(1);
+    transition: .4s;
+}
+
+/* Newsletter */
+#shopify-section-template--16591330050265__newsletter {
+    width: 94%;
+    margin: 30px auto;
+}
+
+/* Footer links */
+a.footer__link-item.link:hover {
+    color: #F58425;
+}
+
+ul.footer__linklist.list--unstyled li {
+    font-size: 13px;
+    line-height: normal;
+}
+
+/* .rte strong {
+    color: white;
+    font-size: 20px;
+}
+
+.rte strong:hover {
+    color: gray;
+} */
+
+/* ========= */
+.variant-pick {
+    z-index: 5;
+    background: aliceblue;
+    width: auto;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    right: -150%;
+    bottom: 0;
+    box-shadow: 0 0 10px 0 black;
+    overflow: auto;
+    max-height: 100vh;
+    transition: all .5s ease-in-out;
+}
+
+#open_variant:checked~.variant-pick {
+    right: 0;
+}
+
+#open_variant {
+    display: none;
+}
+
+p.x_v {
+    font-size: 20px;
+    position: sticky;
+    top: 10px;
+    border: 1px solid;
+    padding: 0px 14px;
+    cursor: pointer;
+    width: 40px;
+    margin-left: 93%;
+}
+
+p.x_v:hover {
+    background: gray;
+    color: white;
+}
+
+p.s_v {
+    border: 1px solid;
+    padding: 0 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "social_widget_51867": {
+      "type": "social-widget",
+      "settings": {
+        "social_widget_id": "51867",
+        "social_product_id": "none",
+        "social_widget_type": "none"
+      }
+    },
+    "0e9b65f6-ef3b-44f3-9744-d0cb62a700ff": {
+      "type": "scroll-bar",
+      "settings": {
+        "acb": "DIY TIŠTĚNÉ SOUPRAVY PLETENIN RYCHLÁ DOPRAVA",
+        "scroll": true,
+        "font_size": 25,
+        "background": "#73488a",
+        "text_color": "#ffffff"
+      }
+    },
+    "28b7dc32-bf65-44a8-9995-dc5015b5e22b": {
+      "type": "promotion-list",
+      "settings": {
+        "expand_items": true,
+        "section_size": "large",
+        "stack_mobile": true
+      }
+    },
+    "398982a0-fb70-4968-a406-49bcb890b4d2": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "VIZ SBÍRKY",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "ab669f68-e5f3-4ca1-b347-3943bea3606b": {
+      "type": "mosaic",
+      "blocks": {
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/P2080049.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "MATERIÁLU VE VZORECH",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#73488a",
+            "button_text_color": "#ffffff",
+            "button_text": "Zjistěte více",
+            "link": "shopify:\/\/collections\/potistene-textilie"
+          }
+        },
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/krajka_DIY.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "DIY soupravy",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#73488a",
+            "button_text_color": "#ffffff",
+            "button_text": "Zjistěte více",
+            "link": "shopify:\/\/collections\/sady-a-strihy"
+          }
+        },
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pasmanteria.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#ffffff",
+            "text_color": "#ffffff",
+            "title": "GALANTERIE",
+            "content": "Galanterie",
+            "content_position": "middle_center",
+            "button_background": "#73488a",
+            "button_text_color": "#ffffff",
+            "button_text": "Zjistěte více",
+            "link": "shopify:\/\/collections\/textilni-galanterie"
+          }
+        },
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gladkie.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "HLADKÉ MATERIÁLY",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#00aa00",
+            "button_text_color": "#ffffff",
+            "button_text": "Zjistěte více",
+            "link": "shopify:\/\/collections\/hladke-materialy"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-0",
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-1",
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-3",
+        "template--16591330050265__ab669f68-e5f3-4ca1-b347-3943bea3606b-1673453292fb5c8393-4"
+      ],
+      "settings": {
+        "section_size": "large"
+      }
+    },
+    "3663a351-ee97-4165-ab5a-d648d17a0d48": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "duhove-a-barevne-vzory",
+        "title": "NOVÉ PRODUKTY",
+        "products_count": 26,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "d3420a9e-7879-42e0-a9e5-df9ca81ccace": {
+      "type": "slideshow",
+      "blocks": {
+        "3c630b71-81bb-4216-b168-9d3db8bcf5ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dresowka-pl_borowki_700x_c5f41725-0d79-44cf-b6e0-023a47c0a7f4.webp",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Ovocné vzory",
+            "content": "DÍVEJ SE",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/ovoce-potraviny-a-napoje"
+          }
+        }
+      },
+      "block_order": [
+        "3c630b71-81bb-4216-b168-9d3db8bcf5ac"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "large",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "26c4c5c2_1674089127": {
+      "type": "powr-video-slider",
+      "settings": {}
+    },
+    "e807f738-4f0e-4e59-9f7f-d7fc7b89bdd2": {
+      "type": "mozik",
+      "disabled": true,
+      "blocks": {
+        "63d2a98f-37eb-432e-ac62-e25b2eed8938": {
+          "type": "text",
+          "settings": {
+            "image_picker": "shopify:\/\/shop_images\/1.jpg",
+            "title": "Děti",
+            "p_txt": "",
+            "btn_txt": "Vidět vše",
+            "link": "shopify:\/\/collections\/deti"
+          }
+        }
+      },
+      "block_order": [
+        "63d2a98f-37eb-432e-ac62-e25b2eed8938"
+      ],
+      "settings": {
+        "sec_title": "VODOTĚSNÉ SPOJE",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=t-jq3gW-wb0"
+      }
+    },
+    "371f757e-72a0-42d6-9aea-3955f3747a1f": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "rocni-obdobi",
+        "title": "Vybrané vzory",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "ZŮSTAŇTE S NÁMI DLOUHO",
+        "content": "<p>Přihlaste se k odběru newsletteru. Zůstaňte informováni o novinkách, výprodejích, trendech, událostech a získejte 5% slevu na další nákup na Krajka.shop<\/p>",
+        "background": "#73488a",
+        "text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "social_widget_51867",
+    "0e9b65f6-ef3b-44f3-9744-d0cb62a700ff",
+    "28b7dc32-bf65-44a8-9995-dc5015b5e22b",
+    "398982a0-fb70-4968-a406-49bcb890b4d2",
+    "ab669f68-e5f3-4ca1-b347-3943bea3606b",
+    "3663a351-ee97-4165-ab5a-d648d17a0d48",
+    "d3420a9e-7879-42e0-a9e5-df9ca81ccace",
+    "26c4c5c2_1674089127",
+    "e807f738-4f0e-4e59-9f7f-d7fc7b89bdd2",
+    "371f757e-72a0-42d6-9aea-3955f3747a1f",
+    "newsletter"
+  ]
+}

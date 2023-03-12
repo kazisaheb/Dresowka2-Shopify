@@ -1,0 +1,82 @@
+{% style %}
+  .variants {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+  }
+
+  .variants span {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .variants span input.pqty {
+    width: 50px;
+    background: none;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .variants span input[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 140px;
+    border: 1px solid;
+  }
+  .variants span input[type="submit"]:hover {
+    background: gray;
+    color: white;
+  }
+  .variants h3 {
+    font-size: revert;
+    font-weight: revert;
+    margin: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    .variants {
+      flex-direction: column;
+    }
+    span.inputs {
+      flex-direction: row;
+      gap: 20px;
+      align-items: baseline;
+    }
+    p.x_v {
+      margin-left: 87%;
+    }
+  }
+{% endstyle %}
+
+{% for variant in product.variants %}
+  <form method="post" action="/cart/add">
+    <div class="variants">
+      <img src=" {{ variant.image | img_url: 'medium' }}">
+      <span>
+        <h3>{{ variant.title }}</h3>
+        <small>{{ variant.metafields.custom.v_d }}</small>
+        <p>
+          Cena:
+          <b>{{ variant.price | money }}</b>
+        </p>
+        <input
+          name="id"
+          value="{{ variant.id }}"
+          type="hidden">
+        <span class="inputs">
+          <input
+            class="pqty"
+            name="quantity"
+            type="number"
+            min="1"
+            value="1">
+          <input
+            type="submit"
+            value="Přidat do košíku"
+            class="btn" />
+        </span>
+      </span>
+
+    </div>
+    <hr>
+  </form>
+{% endfor %}

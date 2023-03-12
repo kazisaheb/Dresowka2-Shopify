@@ -1,0 +1,68 @@
+<style>
+  .acb {
+    background: {{ section.settings.background }};
+    font-size: {{ section.settings.font_size }}px;
+    color: {{ section.settings.text_color }} ;
+    width: -webkit-fill-available;
+    text-align: center;
+     letter-spacing: 3px;
+  }
+  .acb marquee {
+    display: flex;
+    font-weight: bold;
+  }
+</style>
+
+<div class="acb">
+  {% if section.settings.scroll %}
+    <marquee>{{ section.settings.acb }}</marquee>
+  {% else %}
+    {{ section.settings.acb }}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Scroll Bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "acb",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "scroll",
+      "default": false,
+      "label": "Scroll"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#000"
+    }, {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000"
+    }
+  ],
+"presets": [
+  {
+    "category": "Text",
+    "name": "Scroll Bar"
+  }
+]
+}
+{% endschema %}
